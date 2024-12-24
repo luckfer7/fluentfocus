@@ -1,4 +1,6 @@
+import Header from '@/components/Header';
 import './globals.css';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: "FluentFocus",
@@ -10,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
       >
-
+        
         {children}
       </body>
     </html>

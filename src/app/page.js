@@ -22,7 +22,7 @@ export default function Home() {
           <TitleThree className="text-center text-2xl font-bold text-[#FFFFFF]">FluentFocus: Elevate your language, elevate your life.</TitleThree>
         </Section>
         <Section className="  mt-10 flex justify-center gap-[25px]">
-          <Link className=" w-[100%]  border-[3px] border-[#1e306f] rounded-[8px] flex flex-col items-center bg-[#0d1d57] py-10 px-10" href="/topics">
+          <Link className=" w-[100%]  border-[3px] border-[#1e306f] rounded-[8px] flex flex-col items-center bg-[#4d67c6] py-10 px-10" href="/topics">
             <Span className="text-2xl my-7  text-[#FFFFFF]" >Conversation topics</Span>
             <Paragraph className="text-lg text-center text-[#FFFFFF]">Explore fun and engaging topics to keep your conversations flowing</Paragraph>
             <Paragraph className="text-lg text-center  text-[#FFFFFF]">From family to parties, discover ideas that spark great discussions!</Paragraph>
@@ -35,7 +35,7 @@ export default function Home() {
  
         </Section>
       </Main>
-      <Footer className="text-center p-10">Developed by a teacher for teachers</Footer>
+      <Footer className="text-center text-[#FFFFFF] p-10">Developed by a teacher for teachers</Footer>
     </div>
   );
 }
