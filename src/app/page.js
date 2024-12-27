@@ -13,22 +13,22 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="h-[100vh]">
+    <div className="">
       <Header className="flex justify-between p-6 text-[#FFFFFF] "/>
-      <Main className="w-[100%] h-[90%] border border-red-500 flex flex-col items-center py-20 px-10 ">
-        <Section className="flex flex-col gap-[22px] w-[70%]">
-          <TitleOne className="text-center text-4xl font-bold text-[#FFFFFF]" >Transform Your English Skills Forever!</TitleOne>
-          <TitleTwo className="text-center text-3xl font-bold text-[#FFFFFF]">Immerse yourself in dynamic discussions, conquer everyday conversations, and experience the power of true fluency</TitleTwo>
-          <TitleThree className="text-center text-2xl font-bold text-[#FFFFFF]">FluentFocus: Elevate your language, elevate your life.</TitleThree>
+      <Main className="w-[100%] h-[90%] border border-red-500 flex flex-col items-center py-20 px-10 main-sp-screen">
+        <Section className="flex flex-col gap-[22px] w-[70%] titles-section">
+          <TitleOne className="text-center text-4xl font-bold text-[#FFFFFF] title-one-sp-screen" >Transform Your English Skills Forever!</TitleOne>
+          <TitleTwo className="text-center text-3xl font-bold text-[#FFFFFF] title-two-sp-screen">Immerse yourself in dynamic discussions, conquer everyday conversations, and experience the power of true fluency</TitleTwo>
+          <TitleThree className="text-center text-2xl font-bold text-[#FFFFFF] title-three-sp-screen">FluentFocus: Elevate your language, elevate your life.</TitleThree>
         </Section>
-        <Section className="  mt-10 flex justify-center gap-[25px]">
-          <Link className=" w-[100%]  border-[3px] border-[#1e306f] rounded-[8px] flex flex-col items-center bg-[#4d67c6] py-10 px-10" href="/topics">
-            <Span className="text-2xl my-7  text-[#FFFFFF]" >Conversation topics</Span>
+        <Section className="  mt-10 flex justify-center gap-[25px] max-[390px]:flex-col">
+          <Link className=" w-[100%]  border-[3px] border-[#1e306f] rounded-[8px] flex flex-col items-center bg-[#4d67c6] py-10 px-10 box" href="/topics">
+            <Span className="text-2xl my-7  text-[#FFFFFF] span" >Conversation topics</Span>
             <Paragraph className="text-lg text-center text-[#FFFFFF]">Explore fun and engaging topics to keep your conversations flowing</Paragraph>
             <Paragraph className="text-lg text-center  text-[#FFFFFF]">From family to parties, discover ideas that spark great discussions!</Paragraph>
           </Link>
-          <Link className=" w-[100%] border-[3px] border-[#1e306f] rounded-[8px] flex flex-col items-center py-10 px-10 bg-[#0d1d57]" href="/reading">
-            <Span className="text-2xl my-7 text-[#FFFFFF]">Reading texts</Span>
+          <Link className=" w-[100%] border-[3px] border-[#1e306f] rounded-[8px] flex flex-col items-center py-10 px-10 bg-[#0d1d57] box" href="/reading">
+            <Span className="text-2xl my-7 text-[#FFFFFF] span">Reading texts</Span>
             <Paragraph className="text-lg text-[#FFFFFF]">Discover stories that inspire and ideas that engage.</Paragraph>
             <Paragraph className="text-lg text-[#FFFFFF]">Learn English through texts that spark curiosity!</Paragraph>
           </Link>

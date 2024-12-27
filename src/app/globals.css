@@ -5,3 +5,33 @@
 body {
     background-color: #4b66de;
 }
+
+@media (max-width: 390px) {
+    .main-sp-screen {
+      @apply py-14 px-2;
+    }
+
+    .titles-section {
+        @apply w-[100%]
+    }
+
+    .title-one-sp-screen {
+        @apply w-[100%] text-2xl;
+    }
+
+    .title-two-sp-screen {
+        @apply w-[100%] text-xl;
+    }
+
+    .title-three-sp-screen {
+        @apply text-lg;
+    }
+
+    .box {
+        @apply py-6 px-6 text-center;
+    }
+
+    .span {
+        @apply text-xl font-semibold;
+    }
+}

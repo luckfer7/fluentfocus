@@ -1,0 +1,9 @@
+@media (max-width: 390px) {
+
+    .topics-title {
+        @apply text-xl;
+    }
+    .topics-list {
+      @apply grid grid-cols-1;
+    }
+}    
