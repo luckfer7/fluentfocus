@@ -1,0 +1,14 @@
+@media (max-width: 390px) {
+
+    .topic-page {
+        @apply py-10 px-2;
+    }
+    
+    .questions-box {
+        @apply py-4 px-2;
+    }
+
+    .question {
+        @apply text-left;
+    }
+}    

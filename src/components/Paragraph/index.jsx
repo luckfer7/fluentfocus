@@ -1,5 +1,5 @@
 export default function Paragraph({ children, className, ...props }) {
     return(
-        <p className={` ${className}` } {...props}>{children}</p>
+        <p className={` font-Raleway ${className}` } {...props}>{children}</p>
     )
 }

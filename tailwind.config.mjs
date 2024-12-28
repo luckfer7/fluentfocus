@@ -1,3 +1,4 @@
+
 /** @type {import('tailwindcss').Config} */
 const tailwindConfig = {
   content: [
@@ -6,7 +7,13 @@ const tailwindConfig = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Raleway: ['var(--font-raleway)', 'sans-serif'],
+        Nunito: ['var(--font-nunito)', 'sans-serif'],
+        Inter: ['var(--font-inter)', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };

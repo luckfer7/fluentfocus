@@ -14,10 +14,10 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="">
-      <Header className="flex justify-between p-6 text-[#FFFFFF] "/>
+      <Header className="flex justify-between  p-6 text-[#FFFFFF] "/>
       <Main className="w-[100%] h-[90%] border border-red-500 flex flex-col items-center py-20 px-10 main-sp-screen">
         <Section className="flex flex-col gap-[22px] w-[70%] titles-section">
-          <TitleOne className="text-center text-4xl font-bold text-[#FFFFFF] title-one-sp-screen" >Transform Your English Skills Forever!</TitleOne>
+          <TitleOne className="text-center text-4xl font-bold  text-[#FFFFFF] title-one-sp-screen" >Transform Your English Skills Forever!</TitleOne>
           <TitleTwo className="text-center text-3xl font-bold text-[#FFFFFF] title-two-sp-screen">Immerse yourself in dynamic discussions, conquer everyday conversations, and experience the power of true fluency</TitleTwo>
           <TitleThree className="text-center text-2xl font-bold text-[#FFFFFF] title-three-sp-screen">FluentFocus: Elevate your language, elevate your life.</TitleThree>
         </Section>

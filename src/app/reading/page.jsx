@@ -6,7 +6,7 @@ export default function Reading() {
     return(
         <>
             <Header className="flex justify-between p-6"/>
-            <TitleOne className="text-center">reading page</TitleOne>
+            <TitleOne className="text-center text-2xl text-[#FFFFFF]">reading page</TitleOne>
             <Footer className="text-center text-[#FFFFFF] p-10">Developed by a teacher for teachers</Footer>
         </>
 
