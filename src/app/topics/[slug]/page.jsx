@@ -17,13 +17,13 @@ export default function TopicQuestions({ params }) {
 
     return (            
         <>
-            <Header className="flex justify-between p-6" /> 
+            <Header className="flex justify-between items-center p-6" /> 
             <Main className=" border-[3px] border-[#1e306f] py-10 px-40 topic-page">
                 <Section className=" border-[3px] border-[#1e306f] py-20 px-10 questions-box">
                     <TitleOne className="mb-8 text-2xl text-[#FFFFFF]">{topic.name} conversation questions</TitleOne>
 
                     {topic.questions.map((question, index) => (
-                        <Question className="m-2 text-[#FFFFFF] font-Nunito question" key={index}>{question}</Question>
+                        <Question className="m-2 text-[#FFFFFF] font-Nunito question" key={index}>{index + 1}. {question}</Question>
                     ))}
                 </Section>
             </Main>

@@ -11,4 +11,22 @@
     .question {
         @apply text-left;
     }
-}    
+}
+
+@media (min-width: 391px) and (max-width: 720px) {
+    .topic-page {
+        @apply py-10 px-2;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 930px) {
+    .topic-page {
+        @apply py-10 px-6;
+    }
+}
+
+@media (min-width: 931px) and (max-width: 1200px) {
+    .topic-page {
+        @apply py-10 px-20;
+    }
+}

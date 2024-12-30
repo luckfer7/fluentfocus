@@ -10,7 +10,7 @@ import './topics.css'
 export default function topicsPage() {
     return(
         <>
-            <Header className="flex justify-between p-6 text-[#FFFFFF]" />
+            <Header className="flex justify-between items-center p-6 text-[#FFFFFF]" />
             
             <Main className=" w-[100%] h-[auto]  border-[3px] border-[#1e306f] bg-[#0d1d57]">
                 <TitleOne className="text-[#FFFFFF] text-2xl text-center topics-title ">topics page</TitleOne>

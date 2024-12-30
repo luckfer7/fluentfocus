@@ -12,7 +12,7 @@ body {
     }
 
     .titles-section {
-        @apply w-[100%]
+        @apply w-[100%];
     }
 
     .title-one-sp-screen {
@@ -33,5 +33,57 @@ body {
 
     .span {
         @apply text-xl font-semibold;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 620px) {
+    .main-sp-screen {
+        @apply py-14 px-2;
+    }
+
+    .titles-section {
+        @apply w-[100%];
+    }
+
+    .title-one-sp-screen {
+        @apply w-[100%] text-2xl;
+    }
+
+    .title-two-sp-screen {
+        @apply w-[100%] text-xl;
+    }
+
+    .title-three-sp-screen {
+        @apply text-lg;
+    }
+
+    .secao-boxes {
+        @apply flex-col ;
+    }
+
+    .box {
+        @apply w-[70%] mx-auto;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 720px) {
+    
+    .main-sp-screen {
+        @apply py-14 px-2;
+    }
+
+    .title-one-sp-screen {
+        @apply w-[100%] text-2xl;
+    }
+    .title-two-sp-screen {
+        @apply w-[100%] text-xl;
+    }
+
+    .title-three-sp-screen {
+        @apply text-lg;
+    }
+
+    .box {
+        @apply py-6 px-6;
     }
 }
