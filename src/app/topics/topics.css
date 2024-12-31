@@ -8,3 +8,14 @@
     }
 }    
 
+@media (min-width: 391px) and (max-width: 720px) {
+   .topics-list {
+      @apply grid-cols-2;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 1220px) {
+  .topics-list {
+    @apply grid-cols-3;
+  }
+}

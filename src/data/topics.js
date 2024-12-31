@@ -66,6 +66,32 @@ const topics = [
             'Books like Watership Down and Animal Farm give animals human characteristics like human thoughts or language. Is this how you think animals really are? Or are those just stories about people?',
         ]
     },
+    {
+        slug: 'artanddesign',
+        name: 'Art and Design',
+        questions: [
+            'Do you have a favorite artist? What kind of art do or did they make?',
+            'Who is the most famous artist in the world? Why are they well known?',
+            'What\'s your view on street art? Does it make the environment better or worse?',
+            'Some artists question or challenge society through their work. Is this an important function of art, in your opinion?',
+            'Do you have a favorite painting? What do you like about it?',
+            'Have you tried painting? If so, have you kept anything that you painted? If not, would you like to try it?',
+            'Many people have pictures or paintings hanging on the walls of their home. Do you? Do you like what is hanging on your wall? Why or why not?',
+            'What themes have fascinated artists most through time? Why are artists obsessed with those things?',
+            'Some pieces of art sell for millions of dollars. Why are some people willing to pay so much for a piece of art?',
+            'Do you go to art galleries or exhibitions? Talk about one that you have been to. If you don\'t, why don\'t you?',
+            'Have you ever seen a piece of art that affected you strongly? What was it?',
+            'Without art, what would the world be like?',
+            'The path of an artist seems to be outside the mainstream. Does a person need to be a bit unusual to be an artist?',
+            'Are plays, musicals, or ballets popular in your country? How often do you go to watch one of these types of performances?',
+            'What’s the difference between art and design?',
+            'When you buy a product, do you think about its design? Which products are designed well?',
+            'Are you interested in architecture? Which buildings in your city were well designed?',
+            'Are fashion designers artists? Are they making clothes to be worn or to be admired?',
+            'Children are often given the opportunity to make art. Why?',
+            'Some artists struggle to earn a living from their art. What makes them continue?',
+        ]
+    },
 
 ]
 

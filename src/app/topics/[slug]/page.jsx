@@ -6,11 +6,19 @@ import TitleOne from "@/components/Title-one";
 import topics from "@/data/topics";
 import './topic.css'
 
-export default function TopicQuestions({ params }) {
 
-    const { slug } = params;
-    const topic = topics.find((topic) => topic.slug === slug);
-    
+export async function generateStaticParams() {
+   return topics.map((topic) => ({
+    slug: topic.slug,
+   }));
+}
+
+
+export default async function TopicQuestions ({ params }) {
+
+    const resolvedParams = await params;
+
+    const topic = topics.find((topic) => topic.slug === resolvedParams.slug);
     if (!topic) {
         return <div>this topic doesnt exist</div>;
     }
