@@ -1,0 +1,17 @@
+@media (max-width: 390px) {
+    .about-main-page {
+        @apply py-14 px-4;
+    }
+}
+
+@media (min-width: 391px) and (max-width: 620px) {
+    .about-main-page { 
+        @apply py-14 px-12;
+    }
+}
+
+@media (min-width: 621px) and (max-width: 870px) {
+    .about-main-page { 
+        @apply py-14 px-20;
+    }
+}
