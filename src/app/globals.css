@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-color: #4b66de;
+    @apply bg-gradient-to-r from-[#6b5ec3] to-[#9788f8] min-h-screen;
 }
 
 @media (max-width: 390px) {
