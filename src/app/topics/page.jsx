@@ -12,11 +12,13 @@ export default function topicsPage() {
         <>
             <Header className="flex justify-between items-center p-6 text-[#FFFFFF]" />
             
-            <Main className=" w-[100%] h-[auto]  border-[3px] border-[#1e306f] bg-[#0d1d57]">
-                <TitleOne className="text-[#FFFFFF] text-2xl text-center topics-title ">topics page</TitleOne>
-                <Section className=" w-[70%] mx-auto grid grid-cols-4 place-items-center bg-[#12266fda] topics-list"  >
+            <Main className=" w-[100%] h-[auto]   bg-gradient-to-r from-[#6b5ec3] to-[#9788f8] min-h-screen;">
+                <TitleOne className="text-[#FFFFFF] text-2xl text-center mb-9 topics-title ">topics page</TitleOne>
+                <Section 
+                style={{ boxShadow: "1px 0 5px 5px #9788f8" }} 
+                className=" w-[70%] mx-auto grid grid-cols-4 place-items-center shadow-xl shadow-[#9788f8] rounded-2xl topics-list"  >
                     {topics.map((topic) => (
-                        <Link className="text-[#FFFFFF] font-Raleway" href={`/topics/${topic.slug}`} key={topic.slug} >{topic.name}</Link>
+                        <Link className="text-[#FFFFFF] hover:scale-105 transition-transform duration-500 font-Raleway mb-4" href={`/topics/${topic.slug}`} key={topic.slug} >{topic.name}</Link>
                     ))}
                     
                    
@@ -24,6 +26,8 @@ export default function topicsPage() {
             </Main>
             <Footer className="text-center text-[#FFFFFF] p-10">Developed by a teacher for teachers</Footer>
         </>
-        
+     
+    //  border-[3px] border-[#1e306f]
+
     )
 }

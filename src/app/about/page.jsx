@@ -9,7 +9,7 @@ export default function About() {
     return(
         <>
             <Header className="flex justify-between items-center p-6" />
-            <Main className=" py-20 px-40 about-main-page " >
+            <Main className=" py-20 shadow-xl shadow-[#9788f8] rounded-2xl px-40 about-main-page " >
                 <TitleOne className="text-center text-2xl text-[#FFFFFF] mb-9 ">About FluentFocus</TitleOne>
                 <Paragraph className=" text-[#FFFFFF] ">
                 The idea behind FluentFocus emerged from my many years of experience as an English teacher. I often struggled to find resources that provided meaningful and engaging conversation questions. When I did find questions, they were usually too shallow to spark interesting discussions. I also spent a significant amount of time crafting my own questions from scratch to prepare for lessons. 

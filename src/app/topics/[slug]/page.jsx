@@ -26,9 +26,9 @@ export default async function TopicQuestions ({ params }) {
     return (            
         <>
             <Header className="flex justify-between items-center p-6" /> 
-            <Main className=" border-[3px] border-[#1e306f] py-10 px-40 topic-page">
-                <Section className=" border-[3px] border-[#1e306f] py-20 px-10 questions-box">
-                    <TitleOne className="mb-8 text-2xl text-[#FFFFFF]">{topic.name} conversation questions</TitleOne>
+            <Main className="  py-10 px-40 topic-page">
+                <Section className="  py-20 px-10 shadow-inner shadow-[#9788f8] rounded-2xl  questions-box">
+                    <TitleOne className="mb-8 text-2xl  text-[#FFFFFF]">{topic.name} conversation questions</TitleOne>
 
                     {topic.questions.map((question, index) => (
                         <Question className="m-2 text-[#FFFFFF] font-Nunito question" key={index}>{index + 1}. {question}</Question>
@@ -36,7 +36,7 @@ export default async function TopicQuestions ({ params }) {
                 </Section>
             </Main>
 
-
+            {/* border-[3px] border-[#1e306f] */}
         </>
     )
 }
