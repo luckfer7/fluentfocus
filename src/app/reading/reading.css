@@ -1,0 +1,30 @@
+@media (max-width: 390px) {
+    .reading-section {
+        @apply w-[100%]
+    }
+
+    .img {
+        @apply w-[70%]
+    }
+}
+
+@media (min-width: 391px) and (max-width: 620px) {
+    .reading-section {
+        @apply w-[100%]
+    }
+
+    .img {
+        @apply w-[70%] mx-auto
+    }
+}
+
+@media (min-width: 621px) and (max-width: 870px) {
+    .reading-section {
+        @apply  w-[100%]
+    }
+
+    .img {
+        @apply w-[50%] mx-auto 
+    }
+}
+ 
