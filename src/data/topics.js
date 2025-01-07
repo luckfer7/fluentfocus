@@ -325,6 +325,34 @@ const topics = [
             'How does color theory impact architecture and interior design? Can you think of an innovative example?',
             'Do you think colors can communicate messages better than words? Why or why not?',
         ]
+    },
+    {
+        slug: 'Computers',
+        name: 'Computers',
+        questions: [
+            'Do you use a computer every day? What do you do with it?',
+            'What do you use your computer for? Do you like using it?',
+            'Do you like playing games on the computer? What games do you play?',
+            'I have been using a computer for a long time. How long have you been using one?',
+            'What do you think is better: using a computer or using a tablet? Why?',
+            'Do you think computers are easy to use? Why or why not?',
+            'How have computers changed the way we live?',
+            'Do you think computers have made our lives better or worse? Give examples.',
+            'I think computers are very useful for work. Do you agree? In what other ways are computers useful?',
+            'Do you think computers are the best tool for learning? Why or why not?',
+            'Do you think children should learn to use computers from an early age? Why?',
+            'How do you think computers influence the way people communicate? Do they make communication better or worse?',
+            'How do you think computers will change in the future? What will they be able to do that they can’t do now?',
+            'What are the advantages and disadvantages of working in front of a computer all day?', 
+            'Are you concerned about the effects of technology on physical and mental health? What steps do you take to mitigate these effects?',
+            'I believe the internet has revolutionized access to information. Do you agree? How do you think the internet has impacted education and culture?', 
+            'Do you think dependence on computers makes us less creative or skilled in other areas?',
+            'How do you think the development of artificial intelligence will impact the way we use computers in the future?',
+            'How do you assess the impact of artificial intelligence on the future of work?. Do you think AI will replace many jobs? Which professions do you believe will be most affected?',
+            'I believe online privacy is a major challenge in the digital age. What is your opinion? What measures can we take to protect our online privacy?',
+            'To what extent could the evolution of quantum computing transform society?. Do you believe quantum computing will bring more benefits or risks to humanity? What are the potential impacts in areas like medicine and security?',
+            'I consider ethics in artificial intelligence to be a crucial topic. What is your view on developing ethical algorithms? How can we ensure that AI is used for the good of humanity?. Do you follow the philosophical discussions about technological singularity and the possibility of conscious machines? What is your opinion on these concepts?',
+        ]
     }
 
 ]
