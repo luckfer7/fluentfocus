@@ -597,6 +597,58 @@ const topics = [
             'I consider the public health implications of alcohol consumption to be a significant concern. What are your views on policies aimed at reducing alcohol-related harm, such as taxation, restrictions on advertising, and public awareness campaigns? How can we balance individual liberties with the need to protect public health?',
         ]            
     },
+    {
+        slug: 'eating',
+        name: 'Eating',
+        questions: [
+            'Do you like to eat?', 'What is your favorite food? Do you like fruits? Do you like vegetables?',
+            'What do you usually eat for lunch? Do you eat at home or at school/work? Do you eat with your family or friends?',
+            'What are some typical dishes in your country? Do you prefer eating at home or in restaurants? What kind of restaurants do you like?',
+            'I believe snacks are fun to eat, but are they healthy? What do you think?',
+            'What do people in your family usually eat for dinner? Is it the same every day?',
+            'I think it’s important to eat healthy food. Do you agree? Why? What are some examples of healthy foods?',
+            'How do your eating habits change during holidays or celebrations?',
+            'What are some unusual foods you have tried? Did you like them?',
+            'I think eating with friends or family is more enjoyable. Do you agree? Why?',
+            'I believe food plays a significant role in social gatherings. Do you agree? How does food bring people together? What are some examples of social events that involve food?',
+            'Do you think fast food is becoming too common? Why or why not?',
+            'I believe eating habits vary between cultures. What differences have you noticed?',
+            'What is your opinion about vegetarian or vegan diets? Do you think they are healthy?',
+            'How do modern lifestyles influence people’s eating habits, both positively and negatively?',
+            'Do you think governments should regulate the sale of unhealthy foods? Why or why not?',
+            'I believe food waste is a major global issue. What solutions can you suggest?',
+            'How does globalization impact traditional eating habits?',
+            'Do you think the way we eat affects our mental health? Why or why not?',
+            'I believe the food industry plays a huge role in climate change. What changes should be made?',
+            'I think there is a growing awareness of the connection between food and health. Do you agree? How can we make more informed choices about the food we eat? What is the role of education and public health campaigns in promoting healthy eating habits?',
+            'I consider the psychological and emotional aspects of eating to be complex and multifaceted. What are your views on issues such as disordered eating, emotional eating, and the role of food in social and emotional well-being? How can we develop a healthier relationship with food?',
+        ]            
+    },
+    {
+        slug: 'education',
+        name: 'Education',
+        questions: [
+            'How important is education?',
+            'Do you go to school? What do you learn at school? Do you like school? Why or why not?',
+            'I like to learn about animals. What do you like to learn about? Do you like to read books?',
+            'I think learning English is important. Do you agree? Why is learning English important? Do you study other languages?',
+            'Do you think homework is important? Why or why not?',
+            'I believe learning new skills is fun. What skills do you want to learn?',
+            'I think group projects are a good way to learn. Do you agree? Why or why not?',
+            'I believe that exams are not the only way to measure learning. What alternatives can you suggest?',
+            'How important is it to learn about history and culture in school?',
+            'What are some important qualities of a good teacher? What makes a class interesting? What are some things you find challenging about studying?',
+            'I believe education is important for everyone. Do you agree? Why is education important for individuals and for society?',
+            'I think technology has changed the way we learn. Do you agree? How has technology impacted education? What are some examples of educational technology?',
+            'Education can open many doors. What are some opportunities that education can provide?',
+            'How can education help solve global issues like poverty and inequality?',
+            'I think lifelong learning is important. Do you agree? Why is it important to continue learning throughout our lives?',
+            'Some people prefer to study online, while others prefer to study in person. What are the advantages and disadvantages of each learning method?',
+            'Testing and exams are a common part of education. Do you think tests are a good way to assess learning? What are some alternative ways to assess learning?',
+            'How does education prepare individuals for the future? What skills and knowledge are essential for success in the 21st century? How can education systems adapt to the changing needs of the job market?',
+            'I believe access to quality education is a fundamental human right. Do you agree? What are the barriers to education in different parts of the world? How can we ensure that everyone has access to a good education?'
+        ]            
+    },
 ]
 
 export default topics;
