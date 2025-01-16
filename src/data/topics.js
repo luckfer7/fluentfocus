@@ -895,11 +895,60 @@ const topics = [
         ]
     },
     {
-        slug: 'halloween',
-        name: 'Halloween',
+        slug: 'health',
+        name: 'Health',
+        questions: [
+            'Are you a healthy person? How often do you get sick?',
+            'What do you do to stay healthy?',
+            'What are the best ways to avoid getting sick?',
+            'Do you take vitamins? Do they really help people, or do they just have a placebo effect?',
+            'How often do you get a medical check-up? How often should people get a check-up?',
+            'What do you think is more important: eating healthy or exercising regularly?',
+            'Have you ever tried a diet? Was it easy or hard to follow?',
+            'I think stress can affect our health. How do you deal with stress?',
+            'I think stress can have a negative impact on our health. Do you agree? What are some effective stress management techniques?',
+            'What do you think are the biggest health challenges in today’s society?',
+            'How can people maintain a healthy lifestyle in a busy world?',
+            'Prevention is better than cure. Do you agree? What can we do to prevent illnesses?',
+            'Do you believe mental health is as important as physical health? Why or why not?',
+            'Why do you think some people ignore health advice even when they know it’s good for them?',
+            'I believe public health campaigns can save lives. How can they be more effective?',
+            'Can technology replace human doctors in the future? What are the pros and cons?',
+            'How do lifestyle choices impact long-term health outcomes? What are the risks and benefits of different lifestyle choices, such as smoking, drinking alcohol, and eating processed foods? How can public health initiatives promote healthier lifestyles?',
+            'I think mental health is just as important as physical health. Do you agree? Why? How can we improve our mental well-being? What are some common mental health challenges?',
+            'What are your views on issues such as genetic engineering, stem cell research, and access to new medical technologies? How can we ensure that these advancements are used ethically and responsibly?',
+        ]
+    },
+    {
+        slug: 'helping',
+        name: 'Helping',
+        questions: [
+            'Do you help your parents at home? What do you usually do?',
+            'Have you ever helped a friend with homework? Was it easy?',
+            'I think sharing is a way to help. Do you like sharing things with others?',
+            'When someone needs help, do you ask them what they need or just help?',
+            'What is the last time you helped someone? How did you feel afterward?',
+            'If you have something that you do not need or want anymore, do you consider giving it away? If so, what things have you given away?',
+            'Would you interfere if you saw a fight in public? What if one person was being seriously hurt?',
+            'Do you think helping people makes you happy? Why or why not?',
+            'I believe small acts of kindness can help a lot. Do you agree?',
+            'What kind of help do you think is most valuable in difficult times?',
+            'Have you ever received help from a stranger? How did it make you feel?',
+            'I think helping others can also teach us something. What have you learned from helping?',
+            'I believe volunteering is a great way to help. Have you ever volunteered for anything?',
+            'How do you think technology has changed the way we help others?',
+            'Do you think people help others because of altruism or personal benefits? Why?',
+            'I believe empathy is essential for effective helping. Do you agree? What is empathy? How can we develop our empathy skills?',
+            'Would you consider donating an organ while you are alive, like a kidney or a lung?',
+            'Can you imagine living on the streets? What would be most uncomfortable about that situation? How would you survive?',
+        ]
+    },
+    {
+        slug: 'heroes',
+        name: 'Heroes',
         questions: [
         ]
     },
-]
+]    
 
 export default topics;
