@@ -1314,6 +1314,45 @@ const topics = [
             'Do you think music streaming platforms have helped or harmed the music industry?',
         ]
     },
+    {
+        slug: 'names',
+        name: 'Names',
+        questions: [
+            'What is your name? Do you know its meaning?',
+            'Do you like your name? Why or why not?',
+            'Do you have a nickname?',
+            'How many people in your family share the same last name?',
+            'Do people ever mispronounce your name? How do you feel about it?',
+            'Is your name common in your country? What are other common names?',
+            'Do you prefer short or long names? Why?',
+            'What are some common names for pets? Can people have the same names? Why or why not?',
+            'Have you ever met someone with the same name as you? How did it feel?',
+            'How do cultural or religious traditions influence the names people choose?',
+            'If you could choose a different name for yourself, what would it be and why?',
+            'Do you think names should carry meanings, or are they just labels? Why?',
+            'How do names change over time? Are there names that were popular in the past but are not popular today?',
+            'What are some names from other cultures that you hear often?',
+            'Kids sometimes tease other kids about their name. Can you recall any examples from your childhood?',
+            'Do you remember other people’s names easily? If you forget a person’s name, what do you do?',
+        ]
+    },
+    {
+        slug: 'naturalworld',
+        name: 'Natural World',
+        questions: [
+            'What is your favorite animal? Why do you like it?',
+            'Do you prefer sunny or rainy weather? Why? What kind of weather do you like?',
+            'What is your favorite season of the year? Why?',
+            'I love going to the beach. Do you like it too?',
+            'What are some common plants or trees in your country?',
+            'Do you like watching the sunrise or sunset? Why?',
+            'Have you ever seen a rainbow? When was the last time?',
+            'I think mountains are beautiful. Do you enjoy visiting them?',
+            'How does the weather affect your mood or daily activities?',
+            'What do you think is the most beautiful place in nature you’ve visited?',
+            'Have you ever been to a national park or nature reserve? What was it like?',
+        ]
+    },
 ]    
 
 export default topics;
