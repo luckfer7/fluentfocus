@@ -11,17 +11,6 @@ const topics = [
         ]
     },
     {
-        slug: 'soccer',
-        name: 'Soccer',
-        questions: [
-            'What causes addiction?',
-            'How to prevent addiction?',
-            'What are the common types of addiction?',
-            'What role does genetics play in addiction?',
-            'How does addiction affect mental health?',
-        ]
-    },
-    {
         slug: 'age',
         name: 'Age',
         questions: [
@@ -1806,6 +1795,95 @@ const topics = [
             'What role do sports play in promoting mental health and well-being?',
             'How has technology changed the way sports are played and watched?',
             'What sports did you play as a child? What was your proudest moment?',
+        ]
+    },
+    {
+        slug: 'soccer',
+        name: 'Soccer',
+        questions: [
+            'Do you like soccer? What is your favorite team?',
+            'What color is the uniform of your favorite soccer team?',
+            'I like watching soccer matches on TV. Do you watch them too?',
+            'Who is your favorite soccer player? Why do you like them?',
+            'Have you ever played soccer with your friends? How was it?',
+            'How many players are on a soccer team? Can you name some positions?',
+            'I think scoring a goal must be exciting. Have you ever scored one?',
+            'What is the most famous soccer stadium in your country? Have you visited it?',
+            'What do you think makes a great soccer player?',
+            'Do you enjoy watching the World Cup? Why or why not?',
+            'What are some famous soccer competitions? Have you heard of the World Cup, the Champions League, or the Premier League? What countries or teams are usually strong in these competitions? What are some major international tournaments?',
+            'I believe soccer connects people from different cultures. Do you agree?',
+            'Soccer is the most popular sport in the world. Why do you think soccer is so popular?',
+            'What do you think about using technology in soccer, like VAR?',
+            'I think the role of the referee is crucial in a soccer match. Do you agree? What are the responsibilities of the referee? How can technology, like VAR (Video Assistant Referee), help referees make better decisions?',
+            'How do soccer fans influence the atmosphere of a match?',
+            'What are the qualities of a good soccer coach?',
+            'I think soccer is more than just a sport; it’s a global passion. What do you think?',
+            'How does soccer impact the economy of a city hosting a big tournament?',
+            'What role does soccer play in shaping national identity?',
+            'How has the business side of soccer changed the way it’s played and watched?',
+            'How does the media influence the popularity of soccer worldwide?',
+            'What are your views on how soccer contributes to social identity, community building, and cultural expression? How can soccer be a tool for social change or a source of conflict? How does football reflect social issues?',
+        ]
+    },
+    {
+        slug: 'superstitionandmystery',
+        name: 'Superstition and Mystery',
+        questions: [
+            'Do you believe in good luck? What makes you feel lucky? Do you think luck plays a part in your life? Are you lucky or unlucky?',
+            'Do you know any superstitions? Have you heard of black cats? Do you know if they bring good luck or bad luck? Do you believe in ghosts?',
+            'What are some origins of superstitions? Do you think they come from old stories or traditions? Why do people believe in superstitions? Do you think superstitions are important?',
+            'What superstitions do people in your country believe in? Are they common?',
+            'Have you ever avoided walking under a ladder? Why or why not?',
+            'What do you do to bring good luck before an important event?',
+            'Why do you think people believe in superstitions even if there’s no proof?',
+            'Do you think mysterious places like the Bermuda Triangle are real or exaggerated?',
+            'I believe some superstitions are based on ancient traditions. Do you agree?',
+            'Have you ever experienced something mysterious that you couldn’t explain?',
+            'I believe some mysteries are fascinating. Do you agree? What kind of mysteries do you find interesting? Have you heard of any famous unsolved mysteries?',
+            'Do you think modern science has reduced people’s belief in superstitions?',
+            'I find ghost stories fascinating. Why do you think people enjoy them so much?',
+            'How would you explain strange events that science cannot yet understand?',
+            'What role do superstitions play in sports or other competitive activities?',
+            'Do you think superstitions have more psychological or cultural importance?',
+        ]
+    },
+    {
+        slug: 'technology',
+        name: 'Technology',
+        questions: [
+            'Are you excited by new technology? What kinds of technology interest you?',
+            'Is technology developing faster than it used to? Are you worried about being left behind?',
+            'Do you think technology makes life easier? Why or why not?',
+            'Do you think students should use tablets in the classroom? Why or why not?',
+            'I believe online learning is very convenient. Do you agree?',
+            'How do you use technology to solve problems in your daily life?',
+            'What are the advantages and disadvantages of artificial intelligence in daily life?',
+            'Do you think technology will replace more jobs in the future? Why or why not?',
+            'I feel like technology can connect people worldwide. Do you think it can also isolate them?',
+            'How has technology influenced the way people spend their free time?',
+            'How do you feel about dating websites/apps? Would you use one?',
+            'Some people prefer to live with less technology in their lives. Can you understand the desire to live a simpler life?',
+            'How do you think emerging technologies will shape the next decade?',
+            'I think the ethics of using artificial intelligence are complex. What is your opinion on this?',
+            'Do you think society is overly dependent on technology? What are the risks of this?',
+        ]
+    },
+    {
+        slug: 'televisionandvideo',
+        name: 'Television and Video',
+        questions: [
+            'Where do you watch videos more often? On a phone, computer, or television?',
+            'What type of videos do you like to watch online? Why do you enjoy them?',
+            'How do streaming platforms like Netflix change the way people watch TV?',
+            'In your home, do people fight over the remote control? Do you like to have control of the television?',
+            'When you like a video online, do you feel like you should share it? Who do you want to share it with?',
+            'What are the advantages of watching TV compared to reading books?',
+            'Do you think watching videos online is replacing traditional TV? Why or why not?',
+            'I feel documentaries are both entertaining and educational. Do you agree?',
+            'How has television shaped modern culture and lifestyles?',
+            'The way we consume video has changed a lot with streaming services. How do you prefer to watch shows and movies: on traditional television or through streaming platforms?',
+            'Have you thought about making a YouTube channel? What would be the subject or purpose of your content?',
         ]
     },
 ]    
