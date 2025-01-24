@@ -8,6 +8,20 @@ const topics = [
             'What are the common types of addiction?',
             'What role does genetics play in addiction?',
             'How does addiction affect mental health?',
+            'Have you ever heard of people being addicted to social media? Why do you think it happens?',
+            'Do you think eating too much candy can be an addiction? Why or why not?',
+            'What are some common addictions people have? Can they be harmful?',
+            'Have you ever seen someone addicted to video games? What happened?',
+            'Do you think it’s easy to stop an addiction? Why or why not?',
+            'Some people say social media can be addictive. Do you think it’s true?',
+            'Why do you think some people become addicted to smoking or drinking?',
+            'How does addiction affect a person’s daily life?',
+            'Do you think there is a difference between a habit and an addiction? Why?',
+            'Do you think technology has created new types of addiction? Can you give examples?',
+            'Do you think addiction should be considered a disease? Why or why not?',
+            'I believe some industries profit from addiction, like fast food or gaming. Do you agree? Do you know another one?',
+            'What are some signs that someone might be addicted to something? Have you heard of needing something all the time, having trouble stopping, or having negative consequences? How can you tell if a habit has become an addiction? What are the physical and psychological signs of addiction?',
+
         ]
     },
     {
@@ -82,7 +96,7 @@ const topics = [
         ]
     },
     {
-        slug: 'BeautyandAppearance',
+        slug: 'beautyandAppearance',
         name: 'Beauty and Appearance',
         questions: [
             'How much does makeup make a person look better? How much is too much makeup?',
@@ -105,7 +119,7 @@ const topics = [
         ]
     },
     {
-        slug: 'BucketList',
+        slug: 'bucketList',
         name: 'Bucket List',
         questions: [
             'Have you had a lot of experiences in your life? Or do you feel like there are many more things that you want and need to do before you die?',
@@ -131,7 +145,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Business',
+        slug: 'business',
         name: 'Business',
         questions: [
             'Do you know anyone that owns their own business? What do they do?',
@@ -154,7 +168,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Childhood',
+        slug: 'childhood',
         name: 'Childhood',
         questions: [
             'What is your earliest memory from childhood? Was it a happy or a sad memory? Why?',
@@ -180,7 +194,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Children',
+        slug: 'children',
         name: 'Children',
         questions: [
             'What do you think children like to do for fun? Do you know any popular games for kids?',
@@ -207,7 +221,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Christmas',
+        slug: 'christmas',
         name:'Christmas',
         questions: [
             'What is the Spirit of Christmas?',
@@ -235,7 +249,7 @@ const topics = [
         ]
     },
     { 
-        slug: 'Clothing',
+        slug: 'clothing',
         name: 'Clothing',
         questions: [
             'What is your favorite piece of clothing? Why do you like it?',
@@ -262,7 +276,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Coffee',
+        slug: 'coffee',
         name: 'Coffee',
         questions: [
             'Do you like coffee? How often do you drink it?',
@@ -289,7 +303,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Colors',
+        slug: 'colors',
         name: 'Colors',
         questions: [
             'What is your favorite color? Why do you like it?',
@@ -316,7 +330,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Computers',
+        slug: 'computers',
         name: 'Computers',
         questions: [
             'Do you use a computer every day? What do you do with it?',
@@ -344,7 +358,7 @@ const topics = [
         ]
     },
     {
-        slug: 'ConflictandWar',
+        slug: 'conflictandWar',
         name: 'Conflict and War',
         questions: [
             'What is a war? Why do people fight wars?',
@@ -366,7 +380,7 @@ const topics = [
         ]
     },
     {
-        slug: 'ConspiracyTheory',
+        slug: 'conspiracyTheory',
         name: 'Conspiracy Theory',
         questions: [
             'I know some people like stories about hidden things. Do you like these stories? Why or why not?',
@@ -385,7 +399,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Cooking',
+        slug: 'cooking',
         name: 'Cooking',
         questions: [
             'What is your favorite food to cook? Do you cook it often?',
@@ -405,7 +419,7 @@ const topics = [
         ]
     },
     {
-        slug: 'CoronavirusPandemic',
+        slug: 'coronavirusPandemic',
         name: 'Coronavirus Pandemic',
         questions: [
             'What did you do at home during the pandemic? Did you learn something new?',
@@ -432,7 +446,7 @@ const topics = [
         ]
     },
     {
-        slug: 'Crime',
+        slug: 'crime',
         name: 'Crime',
         questions: [
             'Have you ever heard about a crime in your neighborhood? How did you feel about it?',

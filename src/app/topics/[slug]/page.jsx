@@ -31,7 +31,7 @@ export default async function TopicQuestions ({ params }) {
                     <TitleOne className="mb-8 text-2xl  text-[#FFFFFF]">{topic.name} conversation questions</TitleOne>
 
                     {topic.questions.map((question, index) => (
-                        <Question className="m-2 text-[#FFFFFF] font-Nunito question" key={index}>{index + 1}. {question}</Question>
+                        <Question className="m-4 text-[#FFFFFF] font-Nunito question" key={index}>{index + 1}. {question}</Question>
                     ))}
                 </Section>
             </Main>
