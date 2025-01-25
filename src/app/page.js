@@ -21,7 +21,7 @@ export default function Home() {
           <TitleTwo className="text-center text-3xl font-bold text-[#FFFFFF] title-two-sp-screen">Immerse yourself in dynamic discussions, conquer everyday conversations, and experience the power of true fluency</TitleTwo>
           <TitleThree className="text-center text-2xl font-bold text-[#FFFFFF] title-three-sp-screen">FluentFocus: Elevate your language, elevate your life.</TitleThree>
         </Section>
-        <Section className="  mt-10 flex justify-center gap-[25px] max-[390px]:flex-col secao-boxes">
+        <Section className="  mt-10 flex justify-center gap-[25px] secao-boxes">
           <Link className=" w-[100%]  border-[3px] border-[#ab8de8] shadow-inner rounded-[8px] flex flex-col items-center bg-[#7869d8] py-10 px-10 hover:scale-105 transition-transform duration-300 box" href="/topics">
             <Span className="text-2xl my-7  text-[#FFFFFF] span" >Conversation topics</Span>
             <Paragraph className="text-lg text-center mb-1.5 text-[#FFFFFF]">Explore fun and engaging topics to keep your conversations flowing</Paragraph>
